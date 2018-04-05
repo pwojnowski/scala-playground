@@ -43,4 +43,8 @@ class MultiTableSpec extends FunSuite {
 
     assert(expected == table)
   }
+
+  test("should print multiplication table") {
+    mt.printTable(10)
+  }
 }
